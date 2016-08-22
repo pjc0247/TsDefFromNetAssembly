@@ -3,7 +3,7 @@ var targetAssembly = Assembly.ReflectionOnlyLoad("my.dll");
 var script = TsBuilder.Build(targetAssembly);
 ```
 
-```
+```ts
 interface StringImpl {
     Join(separator: string, value: string[]): string;
     Join(separator: string, values: any[]): string;
