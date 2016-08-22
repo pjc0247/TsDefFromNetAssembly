@@ -4,6 +4,7 @@ var script = TsBuilder.Build(targetAssembly);
 ```
 
 ```ts
+// System.String
 interface StringImpl {
     Join(separator: string, value: string[]): string;
     Join(separator: string, values: any[]): string;
