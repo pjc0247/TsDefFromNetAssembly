@@ -56,3 +56,4 @@ interface StringImpl {
 }
 declare var String: StringImpl;
 ```
+* https://github.com/Microsoft/TypeScript/issues/2319
